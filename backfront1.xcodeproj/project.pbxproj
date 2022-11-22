@@ -9,21 +9,48 @@
 /* Begin PBXBuildFile section */
 		C12FAC202928574F003CBB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC1F2928574F003CBB34 /* AppDelegate.swift */; };
 		C12FAC222928574F003CBB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC212928574F003CBB34 /* SceneDelegate.swift */; };
-		C12FAC242928574F003CBB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC232928574F003CBB34 /* ViewController.swift */; };
-		C12FAC272928574F003CBB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12FAC252928574F003CBB34 /* Main.storyboard */; };
+		C12FAC242928574F003CBB34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC232928574F003CBB34 /* HomeViewController.swift */; };
 		C12FAC292928574F003CBB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12FAC282928574F003CBB34 /* Assets.xcassets */; };
 		C12FAC2C2928574F003CBB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12FAC2A2928574F003CBB34 /* LaunchScreen.storyboard */; };
+		C12FAC3529285DC4003CBB34 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC3429285DC4003CBB34 /* CardViewModel.swift */; };
+		C12FAC3A29285DEC003CBB34 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC3729285DEC003CBB34 /* NSAttributedString + Extension.swift */; };
+		C12FAC3B29285DEC003CBB34 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC3829285DEC003CBB34 /* UIView + Extension.swift */; };
+		C12FAC3C29285DEC003CBB34 /* NSTextAttachment + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC3929285DEC003CBB34 /* NSTextAttachment + Extension.swift */; };
+		C12FAC3F29286DD4003CBB34 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FAC3E29286DD4003CBB34 /* HomeScreen.swift */; };
+		C1350C1F292C21E600732479 /* CardViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1350C1E292C21E600732479 /* CardViewTableViewCell.swift */; };
+		C1350C22292C22B900732479 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1350C21292C22B900732479 /* CustomCardView.swift */; };
+		C1350C24292C344500732479 /* CardActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1350C23292C344500732479 /* CardActionView.swift */; };
+		C14E20A3292D7C7E00553521 /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = C14E20A2292D7C7E00553521 /* MarqueeLabel */; };
+		C14E20A5292D7DF200553521 /* CustomPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E20A4292D7DF200553521 /* CustomPlayerView.swift */; };
+		C18302A4292D1CF800851D4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18302A3292D1CF800851D4E /* DetailViewController.swift */; };
+		C18302A6292D1D1300851D4E /* DetailViewControllerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18302A5292D1D1300851D4E /* DetailViewControllerScreen.swift */; };
+		C18302AA292D46A600851D4E /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18302A9292D46A600851D4E /* DetailTableViewCell.swift */; };
+		C18302AC292D46E400851D4E /* DetailTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18302AB292D46E400851D4E /* DetailTableViewCellScreen.swift */; };
+		C18302AE292D4B7000851D4E /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18302AD292D4B7000851D4E /* CustomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C12FAC1C2928574F003CBB34 /* backfront1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backfront1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12FAC1F2928574F003CBB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C12FAC212928574F003CBB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C12FAC232928574F003CBB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C12FAC262928574F003CBB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12FAC232928574F003CBB34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C12FAC282928574F003CBB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12FAC2B2928574F003CBB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12FAC2D2928574F003CBB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12FAC3429285DC4003CBB34 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		C12FAC3729285DEC003CBB34 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
+		C12FAC3829285DEC003CBB34 /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		C12FAC3929285DEC003CBB34 /* NSTextAttachment + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextAttachment + Extension.swift"; sourceTree = "<group>"; };
+		C12FAC3E29286DD4003CBB34 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C1350C1E292C21E600732479 /* CardViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewTableViewCell.swift; sourceTree = "<group>"; };
+		C1350C21292C22B900732479 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		C1350C23292C344500732479 /* CardActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardActionView.swift; sourceTree = "<group>"; };
+		C14E20A4292D7DF200553521 /* CustomPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayerView.swift; sourceTree = "<group>"; };
+		C18302A3292D1CF800851D4E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C18302A5292D1D1300851D4E /* DetailViewControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerScreen.swift; sourceTree = "<group>"; };
+		C18302A9292D46A600851D4E /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		C18302AB292D46E400851D4E /* DetailTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCellScreen.swift; sourceTree = "<group>"; };
+		C18302AD292D4B7000851D4E /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14E20A3292D7C7E00553521 /* MarqueeLabel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,84 @@
 		C12FAC1E2928574F003CBB34 /* backfront1 */ = {
 			isa = PBXGroup;
 			children = (
+				C18302A2292D1CED00851D4E /* DetailViewController */,
+				C1350C20292C22AD00732479 /* CustomView */,
+				C1350C1D292C21D300732479 /* Cell */,
+				C12FAC3D29286DCA003CBB34 /* Home */,
 				C12FAC1F2928574F003CBB34 /* AppDelegate.swift */,
 				C12FAC212928574F003CBB34 /* SceneDelegate.swift */,
-				C12FAC232928574F003CBB34 /* ViewController.swift */,
-				C12FAC252928574F003CBB34 /* Main.storyboard */,
 				C12FAC282928574F003CBB34 /* Assets.xcassets */,
 				C12FAC2A2928574F003CBB34 /* LaunchScreen.storyboard */,
 				C12FAC2D2928574F003CBB34 /* Info.plist */,
+				C12FAC3329285DBC003CBB34 /* Model */,
+				C12FAC3629285DEC003CBB34 /* Extension */,
 			);
 			path = backfront1;
+			sourceTree = "<group>";
+		};
+		C12FAC3329285DBC003CBB34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C12FAC3429285DC4003CBB34 /* CardViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C12FAC3629285DEC003CBB34 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C12FAC3729285DEC003CBB34 /* NSAttributedString + Extension.swift */,
+				C12FAC3829285DEC003CBB34 /* UIView + Extension.swift */,
+				C12FAC3929285DEC003CBB34 /* NSTextAttachment + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C12FAC3D29286DCA003CBB34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C12FAC232928574F003CBB34 /* HomeViewController.swift */,
+				C12FAC3E29286DD4003CBB34 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C1350C1D292C21D300732479 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C1350C1E292C21E600732479 /* CardViewTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C1350C20292C22AD00732479 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C1350C21292C22B900732479 /* CustomCardView.swift */,
+				C1350C23292C344500732479 /* CardActionView.swift */,
+				C18302AD292D4B7000851D4E /* CustomNavBar.swift */,
+				C14E20A4292D7DF200553521 /* CustomPlayerView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C18302A2292D1CED00851D4E /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C18302A8292D469500851D4E /* Cell */,
+				C18302A3292D1CF800851D4E /* DetailViewController.swift */,
+				C18302A5292D1D1300851D4E /* DetailViewControllerScreen.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		C18302A8292D469500851D4E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C18302A9292D46A600851D4E /* DetailTableViewCell.swift */,
+				C18302AB292D46E400851D4E /* DetailTableViewCellScreen.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +180,9 @@
 			dependencies = (
 			);
 			name = backfront1;
+			packageProductDependencies = (
+				C14E20A2292D7C7E00553521 /* MarqueeLabel */,
+			);
 			productName = backfront1;
 			productReference = C12FAC1C2928574F003CBB34 /* backfront1.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +211,9 @@
 				Base,
 			);
 			mainGroup = C12FAC132928574F003CBB34;
+			packageReferences = (
+				C14E20A1292D7C7E00553521 /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
+			);
 			productRefGroup = C12FAC1D2928574F003CBB34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +230,6 @@
 			files = (
 				C12FAC2C2928574F003CBB34 /* LaunchScreen.storyboard in Resources */,
 				C12FAC292928574F003CBB34 /* Assets.xcassets in Resources */,
-				C12FAC272928574F003CBB34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12FAC242928574F003CBB34 /* ViewController.swift in Sources */,
+				C18302A6292D1D1300851D4E /* DetailViewControllerScreen.swift in Sources */,
+				C1350C1F292C21E600732479 /* CardViewTableViewCell.swift in Sources */,
+				C18302AE292D4B7000851D4E /* CustomNavBar.swift in Sources */,
+				C18302AC292D46E400851D4E /* DetailTableViewCellScreen.swift in Sources */,
+				C18302AA292D46A600851D4E /* DetailTableViewCell.swift in Sources */,
+				C12FAC3529285DC4003CBB34 /* CardViewModel.swift in Sources */,
+				C14E20A5292D7DF200553521 /* CustomPlayerView.swift in Sources */,
+				C12FAC242928574F003CBB34 /* HomeViewController.swift in Sources */,
+				C18302A4292D1CF800851D4E /* DetailViewController.swift in Sources */,
+				C12FAC3C29285DEC003CBB34 /* NSTextAttachment + Extension.swift in Sources */,
+				C12FAC3B29285DEC003CBB34 /* UIView + Extension.swift in Sources */,
+				C12FAC3F29286DD4003CBB34 /* HomeScreen.swift in Sources */,
+				C1350C24292C344500732479 /* CardActionView.swift in Sources */,
 				C12FAC202928574F003CBB34 /* AppDelegate.swift in Sources */,
+				C1350C22292C22B900732479 /* CustomCardView.swift in Sources */,
+				C12FAC3A29285DEC003CBB34 /* NSAttributedString + Extension.swift in Sources */,
 				C12FAC222928574F003CBB34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C12FAC252928574F003CBB34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C12FAC262928574F003CBB34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C12FAC2A2928574F003CBB34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +400,6 @@
 				INFOPLIST_FILE = backfront1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +427,6 @@
 				INFOPLIST_FILE = backfront1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C14E20A1292D7C7E00553521 /* XCRemoteSwiftPackageReference "MarqueeLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cbpowell/MarqueeLabel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C14E20A2292D7C7E00553521 /* MarqueeLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C14E20A1292D7C7E00553521 /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
+			productName = MarqueeLabel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C12FAC142928574F003CBB34 /* Project object */;
 }
